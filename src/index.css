@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.messaging.str-chat .str-chat__list {
+  padding: 0 15px 0;
+  background: lightgrey;
+}
+
+.messaging.str-chat .str-chat__header-livestream {
+  position: relative;
+  z-index: 1;
+  border-radius: 10px 10px 0 0;
+  background: #44c8ec !important;
+  box-shadow: none;
+  box-shadow: 0 7px 9px 0 rgb(0 0 0 / 3%), 0 1px 0 0 rgb(0 0 0 / 3%);
+}
+
+div#root {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.str-chat-channel.messaging .str-chat__main-panel {
+  padding: 0;
+}
+
+.messaging.str-chat .str-chat__list {
+  padding: 0 20px 0 !important;
+  background: royalblue !important;
+}
+
+.str-chat__message-inner, .str-chat__message-simple-inner {
+  margin-left: unset;
+  margin-right: 0 !important;
+  width: 100% !important;
+}
+
+.str-chat-channel.messaging .str-chat__main-panel {
+  padding: 0 !important;
+}
+
+.str-chat__textarea textarea {
+  background: black !important;
+  opacity: 0.9 !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 0 !important; 
+}
+
+.str-chat__input {
+  padding: 0 !important;
+}
+
+.str-chat__gallery-image {
+  max-width: 250px !important;
+  width: 100% !important;
+}
+
+.rfu-file-upload-button svg {
+  fill: #fff !important;
+}
+
+span.str-chat__input-emojiselect svg {
+  fill: #fff !important;
+}
+
+.str-chat__message-simple-status {
+  margin: 10px 0px 10px 3px !important;
+  background: #fff !important;
+  border-radius: 10px !important;
+}
+
+.str-chat__message-text, .str-chat__message-simple-text {
+  width: 300px !important;
+}
